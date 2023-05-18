@@ -3,9 +3,23 @@ body {
   font-family: segoe UI;
 }
 
-.circle {
-background-color: #424242;
-border-radius: 50%;
-width: 277px;
-height: 277px;
+.circle{
+	width: 277px;
+	height: 277px;
+	border-radius: 50%;
+	background: #131313;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  margin:0px auto;
+  padding:3%;
+  border: 1px solid #424242;
+  box-shadow: 10px 10px 40px #000000;
+}
+
+.circle> h2 {
+	color: #424242;
+	font-size: 1.4rem;
+  font-weight: bold;
 }
