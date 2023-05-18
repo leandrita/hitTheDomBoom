@@ -27,7 +27,7 @@
                 </div>
             </div>
 
-            <ul class="md:flex md:items-center bg-cyan-900 hover-bg-green-500 z-[0] md:z-auto md:static absolute text-lg text-white w-full text-center	
+            <ul class="md:flex md:items-center bg-cyan-900 hover-bg-green-500 z-[0] md:z-auto md:static absolute text-lg text-white w-full text-center
              md:w-auto md:my-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 right-[-700px] transition-all  duration-500">
                 <li class="mx-4 my-6 md:my-0 bb-2">
                     <a href="#" class="text-x1 hover:text-cyan-500 duration-500">Premium</a>
@@ -47,33 +47,38 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <!-- acá va la imagen de la bateria -->
-        <section class="max-md">
-            <img src="/image/drumkit.png"
+    <main class="w-full lg:w-1/2 w-full h-auto "> <!-- responsive para todo el main y que se adapte a cada tamaño de pantalla  -->
+        <!-- bateria,  -->
+        <section class="max-md text-center pb-8">
+            <img class="from-neutral-800 p-4" src="/image/drumkit.png"
                 alt="a drumkit image where clicking on the different black circles will emit a different sound">
-            <!-- esto es para los 8 sonidos -->
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
-            <h1 class="text-white ">Music for everyone</h1>
+            <!--  8 sonidos/ 8 botones-->
+            <div class="invisible bg-transparent rounded-full"></div>
+            <div class="invisible bg-transparent rounded-full"></div>
+            <div class="invisible bg-transparent rounded-full"></div>
+            <div class="invisible bg-transparent rounded-full"></div>
+            <div class="invisible bg-transparent rounded-full"></div>
+            <div class="invisible bg-transparent rounded-full"></div>
+            <div class="invisible bg-transparent rounded-full"></div>
+            <div class="invisible bg-transparent rounded-full"></div>
+            <div class="p-4">
+            <h1 class="text-white text-8xl font font-semibold whitespace-normal">Music for everyone</h1>
             <p class="text-slate-500 ">Milions of songs. No credit card needed</p>
-            <button onclick="" class="bg-green-500 text-white font-bold py-2 px-4 p-4 rounded-xl"></button>
+            <button onclick="" class="bg-green-500 focus-visible text-white font-bold p-4 rounded-full py-5 px-16 mt-2"></button>
+                                     <!-- boton verde, que sea visible,texto blanco, redondeado 100%, py padding top-botom, px padding left rigth, mt margin top -->
+                                    </div>
 
-            
         </section>
-        <section>
-            <!-- Aca va el circulo -->
-            <div></div>
-            <p>Hit</p>
-        </section>
+    <section>
+        <!-- Aca va el circulo -->
+        <div class="sm py-24 flex items-center justify-center">
+            <div class="border-slate-300 drop-shadow-[35_35px_35px_rgba(0,0,0,0.70)] text-gray-400 relative w-56 h-56 bg-gray-900 rounded-full flex justify-center items-center text-center">
+                Hit
+            </div>
+        </div>
+    </section>
     </main>
-    <footer class="text-center pb-8 w-full lg:w-1/2 w-full h-auto">
+   <footer class="text-center pb-8 w-full lg:w-1/2 w-full h-auto">
         <h3 class="text-sm text-white md:text-3xl font-bold lg:text-xl/8">Try Premium free for 1 month</h3>
         <p class="text-xs text-slate-500">Play millions of songs ad-free, on-demand and offline</p>
     <button onclick="SEEPRICING" class="bg-white text-slate-950 font-bold py-2 px-4 p-4 rounded-[40px] m-1">SEE PRICING</button>
