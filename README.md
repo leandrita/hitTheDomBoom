@@ -38,6 +38,10 @@ Fases del proyecto:
 - Elección de dispositivo:
 Mobile: 412px x 915px
 Desktop:1440px x 1024px
+- HTML
+-CSS
+
+
 
 
 # desarrolladoraspracticantes
