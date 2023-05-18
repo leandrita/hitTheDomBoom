@@ -9,22 +9,27 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
 </head>
 
 <body>
     <header>
-        <nav class="p-5 bg-white shadow md:flex md:items-center md:justify-between">
+        <nav class="p-5 shadow md:flex md:items-center md:justify-between">
 
             <div class="flex justify-between items-center">
-                <span class="text-2x1 font-sans cursor-pointer">
-                    <img class="h-10 inline" src="./image/logo.png" alt="" srcset="">
+                <span class="text-2x1 cursor-pointer">
+                    <img class="h-10 inline ml-40" src="./image/logo.png" alt="" srcset="">
                 </span>
+                <div
+                    class="w-5 text-3x1 bg-green-500 mb-20  rounded-full	px-7 py-1  cursor-pointer mx-2 md:hidden block">
+                    <ion-icon name="menu" onClick="Menu(this)"></ion-icon>
+                </div>
             </div>
 
-            <ul
-                class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full
-            lef-0 md:w-auto md:my-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
-                <li class="mx-4 my-6 md:my-0">
+            <ul class="md:flex md:items-center bg-cyan-900 hover-bg-green-500 z-[0] md:z-auto md:static absolute text-lg text-white w-full text-center
+             md:w-auto md:my-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 right-[-700px] transition-all  duration-500">
+                <li class="mx-4 my-6 md:my-0 bb-2">
                     <a href="#" class="text-x1 hover:text-cyan-500 duration-500">Premium</a>
                 </li>
                 <li class="mx-4 my-6 md:my-0">
@@ -42,24 +47,24 @@
             </ul>
         </nav>
     </header>
-    <main class="w-full lg:w-1/2 w-full h-auto "> <!-- responsive para todo el main y que se adapte a cada tamaño de pantalla  -->
-        <!-- bateria,  -->
-        <section class="max-md text-center pb-8">
-            <img class="from-neutral-800 " src="/image/drumkit.png"
+    <main>
+        <!-- acá va la imagen de la bateria -->
+        <section class="max-md">
+            <img src="/image/drumkit.png"
                 alt="a drumkit image where clicking on the different black circles will emit a different sound">
-            <!--  8 sonidos/ 8 botones-->
-            <div class="invisible bg-transparent rounded-full"></div>
-            <div class="invisible bg-transparent rounded-full"></div>
-            <div class="invisible bg-transparent rounded-full"></div>
-            <div class="invisible bg-transparent rounded-full"></div>
-            <div class="invisible bg-transparent rounded-full"></div>
-            <div class="invisible bg-transparent rounded-full"></div>
-            <div class="invisible bg-transparent rounded-full"></div>
-            <div class="invisible bg-transparent rounded-full"></div>
-            <h1 class="text-white text-3xl font font-bold">Music for everyone</h1>
+            <!-- esto es para los 8 sonidos -->
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+            <h1 class="text-white ">Music for everyone</h1>
             <p class="text-slate-500 ">Milions of songs. No credit card needed</p>
-            <button onclick="" class="bg-green-500 focus-visible text-white font-bold p-4 rounded-full py-5 px-16 mt-2"></button>
-                                     <!-- boton verde, que sea visible,texto blanco, redondeado 100%, py padding top-botom, px padding left rigth, mt margin top -->
+            <button onclick="" class="bg-green-500 text-white font-bold py-2 px-4 p-4 rounded-xl"></button>
+
 
         </section>
     
@@ -70,10 +75,19 @@
           </div>
     </section>
     </main>
-    <footer class="text-center pb-8">
-        <h3 class="text-3xl font-bold text-white m-1">Try Premium free for 1 month</h3>
-        <p class="text-xs text-slate-500 tracking-normal m-1">Play millions of songs ad-free, on-demand and offline</p>
+    <footer class="text-center py-32 px-8 w-full lg:w-1/2 w-full h-auto">
+        <h3 class="text-white text-xl font-bold lg:text-xl/8">Try Premium free for 1 month</h3>
+        <p class="text-xs text-slate-500">Play millions of songs ad-free, on-demand and offline</p>
     <button onclick="SEEPRICING" class="bg-white text-slate-950 font-bold py-2 px-4 p-4 rounded-[40px] m-1">SEE PRICING</button>
     </footer>
+
+    <script>
+        function Menu(e) {
+            let list = document.querySelector('ul');
+
+            e.name === 'menu' ? (e.name = "close", list.classList.add('right-[0px]'), list.classList.add('opacity-100')
+            ) : (e.name = "menu", list.classList.remove('right-[0px]'), list.classList.remove('opasity-100'))
+        }
+    </script>
 
 </html>
