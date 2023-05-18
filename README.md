@@ -1,55 +1,81 @@
-# hitthedomboom
+# Project Name: Hit the DOMboom
 
-Nombre del Proyecto: HIT THE DOM BOO
+_Proposal:_ A client has requested the development of a landing page for their musical instrument company. They plan to sell their flagship product, an electronic drum kit (drumkit).
 
-Contenidos:
-1. [Información General]
-2. [Tecnologías]
-3. [Desarrolladoras practicantes]
+![Drumkit](/image/hitthedombo.jpg)
 
-# general-info
+## Table of contents:
 
- Propuesta de proyecto: Un cliente ha solicitado el desarrollo de una landing page para su empresa de instrumentos musicales, planea vender su producto estrella una batería electrónica (drumkit).
+1. [General Info](#general-info)
+2. [Technologies](#technologies)
+3. [Developers](#developers)
 
-Objetivo principal: En este proyecto tiene objetivo es hacer una replica del diseño de la landing page propuesto por el cliente con la prioridad que el usuario pueda interactuar con el drumkit, de tal forma que cuando da click en cada uno de los “pad” se emita un sonido distinto.
+### General Info
 
-Tiene que poder funcionar en cualquier dispositivo y adaptarse.
+_Objectives:_
+The objective is to replicate the design of the landing page proposed by the client with the priority that the user can interact with the drum kit, so that when they click on each of the "pads", a different sound is emitted.
+It should be able to work on any device and adapt accordingly.
 
-- Ideación (**Inception**) del proyecto, organización del equipo y Kickoff
+_Project phases:_
 
-    Durante **el primer día**, el equipo debe decidir cuál será la forma de trabajar en el día a día, cuáles son los principales items que se van a incluir (Product Backlog), escoger una scrum master que liderará al equipo de desarrolladoras y una product owner que será la encargada de hacer preguntas y negociaciones con el cliente.
+- **Inception, Team Organization, and Kickoff**
+  On the first day, the team needs to decide on the working methodology for day-to-day operations, identify the main items to be included (Product Backlog), select a Scrum Master to lead the development team, and appoint a Product Owner who will be responsible for asking questions and negotiating with the client.
 
-Fases del proyecto:
-- Sprints semanales (2 semanas en total)
-    - Al comienzo del sprint, el equipo debe acordar cuáles son las historias de usuario que van a hacer durante el sprint (Sprint Backlog)
-    - Al final del Sprint, el equipo debe hacer una **demo** al cliente de las historias de usuario que haya conseguido terminar
-    - Al final, el equipo puede hacer una **retrospectiva** para mejorar la forma de trabajar de cara al siguiente sprint o proyecto
-    - Durante el Sprint es recomendable hacer una reunión muy breve al comienzo de la jornada (*Daily meeting)* para que cada persona del equipo explique lo que está haciendo y los problemas o dificultades que se está encontrando.
+- **Weekly Sprints** (2 weeks in total)
+  At the beginning of the sprint, the team must agree on which user stories they will work on during the sprint (Sprint Backlog).
+  At the end of the sprint, the team should hold a demo for the client, showcasing the completed user stories.
+  Additionally, the team can conduct a retrospective at the end to improve their way of working for the next sprint or project.
+  It is recommended to have a very brief meeting at the start of each day during the sprint, called the Daily Standup, where each team member shares their progress, challenges, and any issues they are facing.
 
-## Proyecto
+_Project:_
 
-💡 1) versión escritorio.
-💡 2) versión mobile.
-💡 3) En el drumkit debe sobreponerse botones en cada pad y mantenerse alineado si cambia de dispositivo.
-💡 4)  Cuando se da click en cada pad debe emitir un sonido.
+1. Desktop version.
+2. Mobile version.
+3. The drum kit should have buttons overlaid on each pad and remain aligned when switching devices.
+4. When clicking on each pad, it should emit a sound.
 
+### Technologies
 
-# tecnologías
-- Elección de dispositivo:
-Mobile: 412px x 915px
-Desktop:1440px x 1024px
 - HTML
--CSS
+- CSS
+- Tailwind
+- Javascript
 
+### Herramientas
 
+- Figma
+- Visual Studio Code
+- Trello
+- Git / GitHub
 
+### Deliverables
 
-# desarrolladoraspracticantes
+**Presentation**
 
-Bootcamp FemCoders
+- Team:
 
-Leandra Bujhamer
-Lorena Morales
-Rosmery Medina
-Génesis Nuñez
-Lucía Silva
+        -What have I contributed?
+        -What have I learned?
+        -What obstacles have I encountered?
+        -How have I resolved them?
+
+- Technologies and tools
+- Planning
+- Wireframing + prototyping
+- Code Review + repository
+- Demo
+
+**Requirements**
+
+1. Use Figma or another wireframing tool like Penpot.
+2. Implement Agile Methodologies - Scrum.
+3. Utilize Kanban for user stories and tasks.
+4. Ensure responsiveness.
+
+### Developers
+
+        Leandra Bujhamer
+        Lorena Morales
+        Rosmery Medina
+        Génesis Nuñez
+        Lucía Silva
