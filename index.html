@@ -13,21 +13,19 @@
 
 </head>
 
-<body>
+<body class="w-full h-full">
     <header>
         <nav class="p-5 shadow md:flex md:items-center md:justify-between">
-
-            <div class="flex justify-between items-center">
+            <div class="flex justify-between items-center lg:pl-32">
                 <span class="text-2x1 cursor-pointer">
-                    <img class="h-10 inline ml-40" src="./image/logo.png" alt="" srcset="">
+                    <img class="h-10 inline" src="./image/logo.png" alt="" srcset="">
                 </span>
-                <div
-                    class="w-5 text-3x1 bg-green-500 mb-20  rounded-full	px-7 py-1  cursor-pointer mx-2 md:hidden block">
+                <div class="w-5 text-3x1 green mb-20  rounded-full	px-7 py-1  cursor-pointer mx-2 md:hidden block">
                     <ion-icon name="menu" onClick="Menu(this)"></ion-icon>
                 </div>
             </div>
 
-            <ul class="md:flex md:items-center bg-cyan-900 hover-bg-green-500 z-[0] md:z-auto md:static absolute text-lg text-white w-full text-center
+            <ul class="md:flex md:items-center hover-bg-green-500 z-[0] md:z-auto md:static absolute text-base text-white w-full text-center
              md:w-auto md:my-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 right-[-700px] transition-all  duration-500">
                 <li class="mx-4 my-6 md:my-0 bb-2">
                     <a href="#" class="text-x1 hover:text-cyan-500 duration-500">Premium</a>
@@ -39,7 +37,7 @@
                     <a href="#" class="text-x1 hover:text-cyan-500 duration-500">Downland</a>
                 </li>
                 <li class="mx-4 my-6 md:my-0">
-                    <a href="#" class="text-x1 hover:text-cyan-500 duration-500">Sing Up</a>
+                    <a href="#" class="text-x1 dark-green hover:text-cyan-500 duration-500">Sing Up</a>
                 </li>
                 <li class="mx-4 my-6 md:my-0">
                     <a href="#" class="text-x1 hover:text-cyan-500 duration-500">Log In</a>
@@ -47,12 +45,11 @@
             </ul>
         </nav>
     </header>
-    <main class="w-full lg:w-1/2 w-full h-auto "> <!-- responsive para todo el main y que se adapte a cada tamaño de pantalla  -->
+    <main class="w-full">
         <!-- bateria,  -->
-        <section class="max-md text-center pb-8">
-            <img class="from-neutral-800 p-4" src="/image/drumkit.png"
-                alt="a drumkit image where clicking on the different black circles will emit a different sound">
-            <!--  8 sonidos/ 8 botones-->
+        <section class="max-md text-center py-8 lg:flex lg:flex-row-reverse lg:pl-16">
+            <img class="p-4 lg:max-w-4xl lg:p-16" src="/image/drumkit.png" alt="A functional Yamaha Drumkit">
+            <!--  8 sonidos/8 botones-->
             <div class="invisible bg-transparent rounded-full"></div>
             <div class="invisible bg-transparent rounded-full"></div>
             <div class="invisible bg-transparent rounded-full"></div>
@@ -61,26 +58,25 @@
             <div class="invisible bg-transparent rounded-full"></div>
             <div class="invisible bg-transparent rounded-full"></div>
             <div class="invisible bg-transparent rounded-full"></div>
-            <div class="p-4">
-            <h1 class="text-white text-8xl font font-semibold whitespace-normal">Music for everyone</h1>
-            <p class="text-slate-500 ">Milions of songs. No credit card needed</p>
-            <button onclick="" class="bg-green-500 focus-visible text-white font-bold p-4 rounded-full py-5 px-16 mt-2"></button>
-                                     <!-- boton verde, que sea visible,texto blanco, redondeado 100%, py padding top-botom, px padding left rigth, mt margin top -->
-                                    </div>
+            <div class="p-16 text-start lg:pl-16">
+                <h1 class="text-white text-6xl font-semibold p-2 lg:text-7xl">Music for everyone.</h1>
+                <p class="p-2 text-sm lg:text-base">Millions of songs. No credit card needed</p>
+                <button onclick="" class="green py-2 px-8 m-2 rounded-[40px]">HIT THE</button>
+            </div>
 
         </section>
-    
-    <section>
-        <!-- Aca va el circulo -->
-        <div class="circle">
-            <h2>Hit </h2>
-          </div>
-    </section>
+
+        <section class="p-8 lg:hidden">
+            <div class="circle flex justify-center items-center">
+                <h2>Hit</h2>
+            </div>
+        </section>
     </main>
-    <footer class="text-center pb-8 w-full lg:w-1/2 w-full h-auto">
-        <h3 class="text-sm text-white md:text-3xl font-bold lg:text-xl/8">Try Premium free for 1 month</h3>
-        <p class="text-xs text-slate-500">Play millions of songs ad-free, on-demand and offline</p>
-    <button onclick="SEEPRICING" class="bg-white text-slate-950 font-bold py-2 px-4 p-4 rounded-[40px] m-1">SEE PRICING</button>
+    <footer class="text-center py-32 px-8 w-full h-auto">
+        <h2 class="text-2xl text-white font-normal lg:text-3xl">Try Premium free for 1 month.</h2>
+        <p class="text-xs p-2 lg:text-base">Play millions of songs ad-free, on-demand and offline.</p>
+        <button onclick="" class="bg-white text-slate-950 py-2 px-4 m-2 rounded-[40px]">SEE
+            PRICING</button>
     </footer>
     <script>
         function Menu(e) {
