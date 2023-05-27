@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hit the dom boom</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
 </head>
@@ -18,7 +17,7 @@
         <nav class="p-5 shadow md:flex md:items-center md:justify-between">
             <div class="flex justify-between items-center lg:pl-32">
                 <span class="text-2x1 cursor-pointer">
-                    <img class="h-10 inline" src="./image/logo.png" alt="" srcset="">
+                    <img class="h-10 inline" src="/image/logo.png" alt="" srcset="">
                 </span>
                 <div class="w-5 text-3x1 green mb-20  rounded-full	px-7 py-1  cursor-pointer mx-2 md:hidden block">
                     <ion-icon name="menu" onClick="Menu(this)"></ion-icon>
@@ -46,10 +45,10 @@
         </nav>
     </header>
     <main class="w-full">
-        <!-- bateria,  -->
+        <!-- bateria  -->
         <section class="max-md text-center py-8 lg:flex lg:flex-row-reverse lg:pl-16">
             <img class="p-4 lg:max-w-4xl lg:p-16" src="/image/drumkit.png" alt="A functional Yamaha Drumkit">
-            <!--  8 sonidos/8 botones-->
+            <!-- sonidos -->
             <div class="invisible bg-transparent rounded-full"></div>
             <div class="invisible bg-transparent rounded-full"></div>
             <div class="invisible bg-transparent rounded-full"></div>
@@ -61,7 +60,7 @@
             <div class="p-16 text-start lg:pl-16">
                 <h1 class="text-white text-6xl font-semibold p-2 lg:text-7xl">Music for everyone.</h1>
                 <p class="p-2 text-sm lg:text-base">Millions of songs. No credit card needed</p>
-                <button onclick="" class="green py-2 px-8 m-2 rounded-[40px]">HIT THE</button>
+                <button class="green py-2 px-8 m-2 rounded-[40px]">HIT THE</button>
             </div>
 
         </section>
@@ -75,16 +74,9 @@
     <footer class="text-center py-32 px-8 w-full h-auto">
         <h2 class="text-2xl text-white font-normal lg:text-3xl">Try Premium free for 1 month.</h2>
         <p class="text-xs p-2 lg:text-base">Play millions of songs ad-free, on-demand and offline.</p>
-        <button onclick="" class="bg-white text-slate-950 py-2 px-4 m-2 rounded-[40px]">SEE
+        <button class="bg-white text-slate-950 py-2 px-4 m-2 rounded-[40px]">SEE
             PRICING</button>
     </footer>
-    <script>
-        function Menu(e) {
-            let list = document.querySelector('ul');
-
-            e.name === 'menu' ? (e.name = "close", list.classList.add('right-[0px]'), list.classList.add('opacity-100')
-            ) : (e.name = "menu", list.classList.remove('right-[0px]'), list.classList.remove('opasity-100'))
-        }
-    </script>
+    <script src="/js/index.js"></script>
 
 </html>
