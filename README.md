@@ -8,7 +8,9 @@ _Proposal:_ A client has requested the development of a landing page for their m
 
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
-3. [Developers](#developers)
+3. [Tools](#tools)
+4. [Deliverables](#deliverables)
+5. [Developers](#developers)
 
 ### General Info
 
@@ -41,7 +43,7 @@ _Project:_
 - Tailwind
 - Javascript
 
-### Herramientas
+### Tools
 
 - Figma
 - Visual Studio Code
