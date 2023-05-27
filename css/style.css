@@ -17,12 +17,7 @@ p {
 }
 
 .circle {
-  width: 277px;
-  height: 277px;
-  border-radius: 50%;
-  background: #131313;
-  margin: 0px auto;
-  padding: 3%;
+  background-color: #131313;
   border: 1px solid #424242;
   box-shadow: 10px 10px 40px #000000;
 }
