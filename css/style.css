@@ -27,3 +27,111 @@ p {
   font-size: 1.4rem;
   font-weight: bold;
 }
+
+.sound-1{
+  width: 7rem;
+  height: 7rem;
+  position: absolute;
+  top: 14rem;
+  right: 43.85rem;
+}
+
+.sound-2{
+  width: 7rem;
+  height: 7rem;
+  position: absolute;
+  top: 14rem;
+  right: 5.5rem;
+}
+
+.sound-3{
+  width: 7rem;
+  height: 7rem;
+  position: absolute;
+  top: 21.5rem;
+  right: 40.25rem;
+}
+
+.sound-4{
+  width: 7rem;
+  height: 7rem;
+  position: absolute;
+  top: 21.5rem;
+  right: 9.25rem;
+}
+
+.sound-5{
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  top: 29.5rem;
+  right: 34.65rem;
+}
+
+.sound-6{
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  top: 29.5rem;
+  right: 11.65rem;
+}
+
+.sound-7{
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  top: 17.1rem;
+  right: 28.9rem;
+}
+
+.sound-8{
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  top: 17.1rem;
+  right: 17.5rem;
+}
+
+@media (max-width: 1023px) and (max-height: 848px) {
+
+  .sound-1{
+    position: relative;
+    top: 11rem;
+    right: 53.75rem;
+  }
+
+  .sound-2{
+    top: 11rem;
+    right: 14.75rem;
+  }
+
+  .sound-3{
+    top: 18.75rem;
+    right: 50.1rem;
+  }
+
+  .sound-4{
+    top: 18.75rem;
+    right: 18.5rem;
+  }
+
+  .sound-5{
+    top: 26.75rem;
+    right: 44.35rem;
+  }
+
+  .sound-6{
+    top: 26.75rem;
+    right: 21rem;
+  }
+
+  .sound-7{
+    top: 14.25rem;
+    right: 38.55rem;
+  }
+
+  .sound-8{
+    top: 14.25rem;
+    right: 27rem;
+  }
+}
